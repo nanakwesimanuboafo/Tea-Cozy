@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-size: 22px;
+    color: seashell;
+    
+}
+
+body{
+    background-color: black;
+    font-family: helvetica;
+    opacity: 0.9;
+}
+
+@media only screen and (max-width:250px){
+    body{
+        font-size: 16px;
+    }
+
+}
+
+header{
+    background-color: black;
+    max-height: 69px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#logo{
+    height: 50px;
+    margin-left: 10px;
+    opacity: 0.9;
+}
+
+nav ul{
+    margin-right: 10px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    opacity: 0.9;
+    
+}
+
+
+#background{
+    height: 700px;
+    max-width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers{
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.background-color{
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+
+
+#tea-of-the-month{
+    margin:  20px auto;
+    max-width: 1000px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.products img {
+    width: 300px;
+   height: 200px;
+   margin: 30px 10px 10px 10px;
+}
+
+
+.food-images p {
+    text-align: center;
+}
+
+
+
+#location{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    min-height: 500px;
+    margin:  50px auto;
+    
+}
+
+#location h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.location-flex{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location-container{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.location-text{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.bottom{
+    max-height: 200px;
+}
+
+.bottom h2{
+    text-transform: capitalize;
+}
+
+.bottom h5{
+    text-align: center;
+}
+
+
+
+footer p span{
+    text-transform: capitalize;
+}
+
+
